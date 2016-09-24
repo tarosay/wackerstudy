@@ -6,5 +6,5 @@ before_script:
 - touch hello.txt
 script:
 - ls hello.txt
-- ls index.html
+- ls index.htm
 

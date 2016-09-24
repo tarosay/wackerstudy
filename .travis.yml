@@ -4,7 +4,7 @@ node_js:
 - '6'
 before_script:
 - touch hello.txt
-scropt:
+script:
 - ls hello.txt
 - ls index.html
 

@@ -7,4 +7,7 @@ before_script:
 script:
 - ls hello.txt
 - ls index.html
-
+notifications:
+    email:
+        on_success: change
+        on_failure: always

@@ -1,13 +1,14 @@
-language: node_js
-node_js:
-- '4'
-- '6'
-before_script:
-- touch hello.txt
+language: ruby
+rvm:
+  - 2.2
+#before_script:
+#- gemとか入れるときに使う
+
 script:
-- ls hello.txt
-- ls index.html
+- ruby sample.rb
+#after_success:
+
 notifications:
-    email:
+    email: tarosa.y@gmail.com
         on_success: change
         on_failure: always
